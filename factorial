@@ -17,18 +17,4 @@ for i in range(1,n+1):
 print(fact)
 
 Using generators and list comprehension
-print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep(','))
-
-while True:
-try:
-    num = int(input("Enter a number: "))
-    break
-except ValueError as err:
-    print(err)
-
-org = num
-fact = 1
-while num:
-    fact = num * fact
-    num = num - 1
-print(f'the factorial of {org} is {fact}')
+print(*(i for i in range(2000, 3201) if i%7 == 0 and i%5 != 0), sep =',')

@@ -1,0 +1,19 @@
+#python 3
+#method 1 using loops
+
+number = int(input('Enter the number: '))
+squares = {}
+for i in range (1, number + 1):
+  squares[i] = i * i
+print(squares)
+
+#method 2 using dictinary comprehensions
+
+number = int(input('Enter the number: '))
+squares={i : i*i for i in range(1,number+1)}
+print(squares)
+
+#method 3 
+
+num = int(input("Number: "))
+print(dict(enumerate([i*i for i in range(1, num+1)], 1)))

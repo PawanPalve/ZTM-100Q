@@ -1,0 +1,6 @@
+#method 1 split
+
+list1 = input('Enter the number: ').split(',')
+print(list1)
+tuple1 = tuple(list1)
+print(tuple1)

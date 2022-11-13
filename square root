@@ -1,0 +1,9 @@
+import math
+C,H = 50,30
+def calc(D):
+  D = int(D)
+  return(str(int(math.sqrt(2*C*D)/H)))
+
+D = input().split(',')
+D = list(map(calc,D))
+print(','.join(D))

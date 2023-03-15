@@ -1,0 +1,6 @@
+sorted word list
+
+lst = input().split(',')
+lst.sort()
+print(lst)
+

@@ -1,0 +1,3 @@
+sentence = input('insert the sentence')
+sentence1 = sentence.upper()
+print(sentence1)

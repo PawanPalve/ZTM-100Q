@@ -1,0 +1,11 @@
+X = int(input('Insert first number : '))
+Y = int(input('Insert seconf number : '))
+
+arr = []
+
+for i in range(X):
+  tmp = []
+  for j in range(Y):
+    tmp.append(i*j)
+  arr.append(tmp)
+print(arr)

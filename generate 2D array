@@ -9,3 +9,8 @@ for i in range(X):
     tmp.append(i*j)
   arr.append(tmp)
 print(arr)
+
+# 2nd way
+x,y = map(int,input().split(','));
+lst = [[i*j for j in range(y)] for i in range(x)]
+print(lst)
